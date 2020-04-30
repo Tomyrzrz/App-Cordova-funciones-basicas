@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Multiplataforma TI</title>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Es un primer ejemplo de la plantilla y manejo de app multiplataforma que estamos viendo en la UTOM en la carrera de TI. Todo Nice">
+  <meta name="author" content="ITIC. Timoteo Ruiz Ruiz"> 
+
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline';
+  style-src 'self' 'unsafe-inline';
+  media-src *;
+  img-src 'self' data: content:; "> -->
+
+
+  <link rel="shortcut icon" href="favicon.ico">  
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <!-- FontAwesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+  <!-- Plugins CSS -->    
+  <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">    
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+  <script type="text/javascript" src="cordova.js"></script>
+
+  <script type="text/javascript" src="assets/js/firebase-app.js"></script>
+
+  <script type="text/javascript" src="assets/js/firebase-auth.js"></script>
+
+  <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA_Y-0SYrRdeoXHpY5j7vqPiQbrU3tdNYE",
+    authDomain: "app1cordovaphonegap.firebaseapp.com",
+    databaseURL: "https://app1cordovaphonegap.firebaseio.com",
+    projectId: "app1cordovaphonegap",
+    storageBucket: "app1cordovaphonegap.appspot.com",
+    messagingSenderId: "1077072897551",
+    appId: "1:1077072897551:web:d5540f456a4e2e7523257a",
+    measurementId: "G-WQQJQ9LREG"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+ 
+</script>
+
+</head> 
+
+<body class="landing-page">   
+
+  <div class="page-wrapper">
+
+    <!-- ******Header****** -->
+    <header class="header text-center">
+      <div class="container">
+        <div class="branding">
+          <h1 class="logo">
+            <span aria-hidden="true" class="icon_documents_alt icon"></span>
+            <span class="text-highlight">Crear</span><span class="text-bold">User</span>
+          </h1>
+        </div><!--//branding-->
+        <div class="tagline">
+          <p>The best career is TI</p>
+          <p>Designed with <i class="fas fa-heart"></i> for Timo</p>
+        </div><!--//tagline-->
+
+        <div class="main-search-box pt-3 pb-4 d-inline-block">
+          <form>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <div class="form-group ">
+              <button type="button" onclick="logup()" class="btn btn-primary">Submit</button><span id="mensajes"></span>
+            </div>
+            
+          </form>
+          <a href="index.html">Ya tengo una cuenta Aqui</a>
+        </div>
+      </div><!--//container-->
+    </header><!--//header-->
+
+
+  </div><!--//page-wrapper-->
+
+  <footer class="footer text-center">
+    <div class="container">
+
+      <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://www.utom.edu.mx/" target="_blank">UTIM TI</a> for developers</small>
+
+    </div><!--//container-->
+  </footer><!--//footer-->
+
+
+  <!-- Main Javascript -->          
+  <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>     
+  <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                      
+  <script type="text/javascript" src="assets/js/firebase-functions.js"></script>   
+
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  
+  <!--<script type="text/javascript" src="assets/js/eventos.js"></script> -->
+
+</body>
+</html> 
+

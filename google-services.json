@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1077072897551",
+    "firebase_url": "https://app1cordovaphonegap.firebaseio.com",
+    "project_id": "app1cordovaphonegap",
+    "storage_bucket": "app1cordovaphonegap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077072897551:android:bcebec37bcbbcab123257a",
+        "android_client_info": {
+          "package_name": "com.softim.app1timo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077072897551-7u2sp4kd5rku6r38mj5gf3ncph83fgb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB66TCOTiu2Axnn8xLd2fT4NGPXJBBwULk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077072897551-7u2sp4kd5rku6r38mj5gf3ncph83fgb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077072897551:android:d49224abbcc8795423257a",
+        "android_client_info": {
+          "package_name": "com.softim.ejemplo2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077072897551-7u2sp4kd5rku6r38mj5gf3ncph83fgb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB66TCOTiu2Axnn8xLd2fT4NGPXJBBwULk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077072897551-7u2sp4kd5rku6r38mj5gf3ncph83fgb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

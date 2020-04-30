@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.softim.app1timo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+	<name>App 1 Timo</name>
+	<description>
+		A blank PhoneGap app.
+	</description>
+	<author email="support@phonegap.com" href="http://phonegap.com">
+		PhoneGap Team
+	</author>
+	
+	<dependency id="es6-promise-plugin" version="4.1.0" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="AndroidLaunchMode" value="singleTask" />
+
+	<platform name="android">
+    	<resource-file src="google-services.json" target="app/google-services.json" />
+	</platform>
+	<uses-permission platform="android" name="android.permission.INTERNET" />
+	<uses-permission platform="android" name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission platform="android" name="android.permission.ACCESS_WIFI_STATE" />
+	<content src="index.html" />
+	<access origin="*" />
+</widget>
